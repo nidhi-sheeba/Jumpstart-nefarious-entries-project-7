@@ -1,0 +1,48 @@
+{
+  "model_id": "google/flan-ul2",
+  "inputs": [
+    "How do you handle asynchronous code in JavaScript? Accrual accounting recognizes revenues and expenses when incurred, not when cash changes hands."
+],
+  "template": {
+    "id": "prompt_builder",
+    "data": {
+      "instruction": "Predict credibility of the answer",
+      "input_prefix": "Input:",
+      "output_prefix": "Output:",
+      "examples": [
+        {
+          "input": "How do you handle asynchronous code in JavaScript? Asynchronous code is handled using callbacks, promises, and async/await syntax to manage execution flow.",
+          "output": "Yes"
+        },
+        {
+          "input": "How do you handle asynchronous code in JavaScript? Accrual accounting recognizes revenues and expenses when incurred, not when cash changes hands.",
+          "output": "No"
+        },
+        {
+          "input": "Explain the purpose of the __doc__ attribute in Python.? The __doc__ attribute holds the docstring, providing documentation for a Python module, function, class, or method.",
+          "output": "Yes"
+        },
+        {
+          "input": "Explain the purpose of the __doc__ attribute in Python.? Technology continues to evolve at a rapid pace.",
+          "output": "No"
+        }
+    ]
+    }
+  },
+  "parameters": {
+    "decoding_method": "greedy",
+    "repetition_penalty": 1,
+    "stop_sequences": [
+    "}"
+    ],
+    "min_new_tokens": 1,
+    "max_new_tokens": 500,
+    "moderations": {
+        "hap": {
+            "input": true,
+            "threshold": 0.75,
+            "output": true
+        }
+    }
+}
+}

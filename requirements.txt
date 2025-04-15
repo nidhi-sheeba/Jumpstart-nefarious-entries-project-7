@@ -1,0 +1,16 @@
+blinker
+click
+et-xmlfile
+Flask
+Flask-Cors
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+openpyxl
+pandas
+python-dateutil
+pytz
+six
+tzdata
+Werkzeug

@@ -1,0 +1,8 @@
+$feature-flags: (
+  enable-css-custom-properties: true,
+  grid-columns-16: true
+);
+
+@import '~carbon-components/scss/globals/scss/theme-tokens';
+@import '~carbon-components/scss/globals/scss/typography';
+@import '~carbon-components/scss/globals/scss/styles';
