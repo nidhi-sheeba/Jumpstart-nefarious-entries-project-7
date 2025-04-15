@@ -1,0 +1,43 @@
+@import '../../carbon';
+
+.login {
+    display: block;
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+}
+
+.headerName {
+    background-color: white;
+    width: 100%;
+}
+
+.divider {
+    border: 0.5px solid $ui-04;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.logo {
+    width: 126px;
+    height: 48px;
+}
+
+.button {
+    width: 100%;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.checkboxDiv {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+
+.forgot {
+    margin-top: 48px;
+}

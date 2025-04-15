@@ -1,0 +1,69 @@
+.container{
+  margin-top: 30px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(41, 39, 39);
+  padding-left: 20px;
+  padding-right: 20px;
+  color: azure;
+  height: 700px;
+  font-size: 15px;
+  border: 1px solid aliceblue;
+}
+.container > div{
+  margin-top: -110px;
+}
+.demo {
+    background-image: url("../../public/info2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+  }
+
+
+  .validQAText {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+    .leftCenter {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      height:600px;
+      width: 900px;
+      margin-left: 64px;
+      margin-top: 72px;
+    }
+
+    .first{
+      font-size: 40px;
+      font-weight: 400;
+      bottom: 16px;
+    }
+    .second{
+      font-size: 25px;
+      font-weight: 300;
+    }
+
+    .third{
+      font-size: 16px;
+      font-weight: 300;
+    }

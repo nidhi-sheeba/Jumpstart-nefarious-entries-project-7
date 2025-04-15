@@ -1,0 +1,24 @@
+
+@import '~carbon-components/scss/globals/scss/theme-tokens';
+@import '~carbon-components/scss/globals/scss/typography';
+@import '~carbon-components/scss/globals/scss/styles';
+
+$feature-flags: (
+  enable-css-custom-properties: true,
+  grid-columns-16: true
+);
+
+:root {
+    @include carbon--theme(
+      $theme: $carbon--theme--g10,
+      $emit-custom-properties: true
+    );
+  }
+
+.bx--header {
+    border-bottom: 0.5px solid $ui-04;
+}
+
+.remember-me {
+  float: left
+}

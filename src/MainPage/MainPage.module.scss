@@ -1,0 +1,202 @@
+.side {
+    background-color: #333333;
+    top: 3rem;
+    position: fixed;
+    height: 100vh;
+    width: 320px;
+    color: #f5f5f5;
+  }
+
+  .side > p {
+    margin-top: 18px;
+    font-size: 16px;
+    padding: 15px;
+    margin: 15px;
+  }
+
+
+  .a {
+    padding-right: 8px;
+  }
+
+  .leftp {
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .arrow {
+    vertical-align: middle;
+  }
+
+  .inputGroup {
+    padding-top: 32px;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .button {
+    padding-left: 8px;
+  }
+
+  .right {
+    top: 3rem;
+    left: 320px;
+    min-height: calc(100vh - 3rem);
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: calc(100% - 320px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow-y: auto;
+  }
+
+
+  .header{
+    color: white;
+    padding: 8px;
+    margin-left: 14px;
+    font-size: 16px;
+
+  }
+
+  .formattedLogs {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+  }
+
+  .closeButton {
+    float:right;
+  }
+
+  .view {
+    display: flex;
+  }
+
+  .scroll {
+    height: 490px;
+    background-color: #333333;
+    overflow-y: auto;
+  }
+
+  .headingLogs {
+    margin-right: auto;
+  }
+
+  .logCode {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin: 5px 0;
+  }
+
+  .headerside{
+    padding: 8px;
+    padding-left: 16px;
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff2f2;
+  }
+
+  .headerCopy{
+     margin-top: 32px;
+     padding: 8px;
+     flex-direction: row;
+     display: flex;
+     justify-content: space-between;
+     background-color: #393939;
+     color: white;
+  }
+
+  .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px
+  }
+  .buttons{
+    flex-direction: row;
+    display: flex;
+  }
+
+.first{
+  background-color: #393939;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.htwo{
+  color: white;
+  padding-top: 14px;
+  font-size: 16px;
+}
+.editIconStrike {
+  text-decoration: line-through;
+}
+
+.extract{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.validate{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+}
+
+.validateo{
+  bottom: 16px;
+}
+
+.textIn{
+  color: #f5f5f5;
+  margin-top: 30px;
+  margin-right: 8px;
+}
+
+:global(.bx--btn.bx--btn--sm.bx--btn--secondary)
+{
+  height: 50px;
+  width:100px;
+}
+.error{
+  margin-top: 20px;
+  color: red;
+  font-size: 18px;
+}
+
+.info{
+  margin-top: 20px;
+  color: green;
+  font-size: 18px;
+}
+
+.div {
+  color: white;
+  background-color: #333333;
+  height: 100px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.textarea{
+  margin: 10px;
+}
